@@ -1,0 +1,16 @@
+player{
+  head{
+    Camera
+    Raycast3D
+  {
+  hitbox{
+    MeshInstance3D
+  }
+  CanvasLayer{
+    AnimatedSprite2D
+    Ammo
+    Crosshair
+    Rewind
+  }
+  Shoot
+  AnimationPlayer
